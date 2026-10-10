@@ -1,0 +1,37 @@
+# VM disk images — huge binary files, never commit
+*.qcow2
+*.vmdk
+*.raw
+*.img
+
+# Packet captures — can contain sensitive traffic
+*.pcap
+*.pcapng
+*.cap
+
+# Screenshots that might leak host info — keep curated ones only
+screenshots/private/
+screenshots/raw/
+
+# VM management artifacts
+*.xml.bak
+virsh-dump-*.xml
+
+# OS / editor junk
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Secrets and credentials — ALWAYS exclude
+.env
+*.key
+*.pem
+*_rsa
+*_ed25519
+secrets/
+credentials/
+
+# Reports with real data
+reports/raw/
