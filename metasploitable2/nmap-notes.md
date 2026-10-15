@@ -93,7 +93,7 @@ Kali                                    Meta2:80
 
 Packet 3 is **ACK**. The handshake completes exactly as it does with `curl`. The application sees an accepted connection and (depending on config) logs the source IP.
 
-**Screenshots:** `screenshots/nmap-sS-rst.png`, `screenshots/nmap-sT-ack.png`
+**Screenshots:** `screenshots/wireshark.png`, `screenshots/wireshark-rcp-scan.png`
 
 ## Open Ports on Metasploitable2
 
